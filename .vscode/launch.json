@@ -1,0 +1,133 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Calendar3",
+      "request": "launch",
+      "mainClass": "Calendar3",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "AdminDashboard",
+      "request": "launch",
+      "mainClass": "AdminDashboard",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "AdminPanel",
+      "request": "launch",
+      "mainClass": "AdminPanel",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "Application",
+      "request": "launch",
+      "mainClass": "Application",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "Calendar2",
+      "request": "launch",
+      "mainClass": "Calendar2",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "CalendarWithDB",
+      "request": "launch",
+      "mainClass": "CalendarWithDB",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "DBConnection",
+      "request": "launch",
+      "mainClass": "DBConnection",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "EventForm",
+      "request": "launch",
+      "mainClass": "EventForm",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "EventTable",
+      "request": "launch",
+      "mainClass": "EventTable",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "LoginWindow",
+      "request": "launch",
+      "mainClass": "LoginWindow",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "ShowCalendar",
+      "request": "launch",
+      "mainClass": "ShowCalendar",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "Signup",
+      "request": "launch",
+      "mainClass": "Signup",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "SimpleCalendar",
+      "request": "launch",
+      "mainClass": "SimpleCalendar",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "TestCalendar",
+      "request": "launch",
+      "mainClass": "TestCalendar",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "Events-java-swing_989f9176"
+    }
+  ]
+}

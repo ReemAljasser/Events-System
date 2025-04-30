@@ -1,0 +1,988 @@
+{
+  "pagination": {
+    "object_count": 5,
+    "continuation": null,
+    "page_count": 1,
+    "page_size": 5,
+    "has_more_items": false,
+    "page_number": 1
+  },
+  "events": [
+    {
+      "image": {
+        "edge_color_set": true,
+        "edge_color": null,
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F820513649%2F195639312499%2F1%2Foriginal.20240805-083346?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C289%2C2000%2C1000&s=5abb7f635321b878b6a817229882f311",
+        "id": "820513649",
+        "crop_mask": {
+          "width": 2000,
+          "height": 1000,
+          "top_left": {
+            "y": 289,
+            "x": 0
+          }
+        },
+        "aspect_ratio": "2",
+        "focal_point": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F820513649%2F195639312499%2F1%2Foriginal.20240805-083346?auto=format%2Ccompress&q=75&sharp=10&s=1d3d362e6206afd2f5b78de90b9cb891",
+          "width": 2000,
+          "height": 1836
+        }
+      },
+      "saves": {
+        "saved_by_you": false
+      },
+      "event_sales_status": {
+        "start_sales_date": {
+          "timezone": "Asia/Riyadh",
+          "local": "1970-01-01T00:00:00",
+          "utc": "1969-12-31T21:00:00Z"
+        },
+        "end_sales_date": {
+          "timezone": "Asia/Riyadh",
+          "local": "2025-04-14T08:00:00",
+          "utc": "2025-04-14T05:00:00Z"
+        },
+        "default_message": null,
+        "sales_status": "on_sale",
+        "currency": "EUR",
+        "message_code": null,
+        "message": null,
+        "message_type": null
+      },
+      "timezone": "Asia/Riyadh",
+      "id": "1028925151827",
+      "privacy_setting": "unlocked",
+      "tickets_by": "Eventbrite",
+      "primary_organizer_id": "12274039026",
+      "tickets_url": "https://www.eventbrite.com/checkout-external?eid=1028925151827",
+      "hide_end_date": false,
+      "date": "2025-04-14",
+      "end_time": "17:00",
+      "status": "live",
+      "_type": "destination_event",
+      "public_collections": {
+        "creator_collections": {
+          "object_count": 0,
+          "collections": []
+        }
+      },
+      "ticket_availability": {
+        "maximum_ticket_price": {
+          "currency": "EUR",
+          "major_value": "2388.35",
+          "value": 238835,
+          "display": "2388.35 EUR"
+        },
+        "minimum_ticket_price": {
+          "currency": "EUR",
+          "major_value": "1916.02",
+          "value": 191602,
+          "display": "1916.02 EUR"
+        },
+        "is_free": false,
+        "has_bogo_tickets": false,
+        "has_available_tickets": true,
+        "is_sold_out": false
+      },
+      "end_date": "2025-04-14",
+      "tags": [
+        {
+          "prefix": "EventbriteSubCategory",
+          "tag": "EventbriteSubCategory/2004",
+          "display_name": "High Tech"
+        },
+        {
+          "prefix": "EventbriteCategory",
+          "tag": "EventbriteCategory/102",
+          "display_name": "Science & Technology",
+          "localized": {
+            "display_name": "Science & Technology"
+          }
+        },
+        {
+          "prefix": "EventbriteFormat",
+          "tag": "EventbriteFormat/9",
+          "display_name": "Class, Training, or Workshop"
+        },
+        {
+          "_type": "tag",
+          "tag": "Auto/Learn",
+          "display_name": "Learn",
+          "prefix": "Auto"
+        },
+        {
+          "_type": "tag",
+          "tag": "Auto/Certification",
+          "display_name": "Certification",
+          "prefix": "Auto"
+        },
+        {
+          "_type": "tag",
+          "tag": "Auto/Certified",
+          "display_name": "Certified",
+          "prefix": "Auto"
+        },
+        {
+          "_type": "tag",
+          "tag": "Master/Learn",
+          "display_name": "Learn",
+          "prefix": "Master"
+        },
+        {
+          "_type": "tag",
+          "tag": "Master/Certification",
+          "display_name": "Certification",
+          "prefix": "Master"
+        },
+        {
+          "_type": "tag",
+          "tag": "Master/Science",
+          "display_name": "Science",
+          "prefix": "Master"
+        },
+        {
+          "_type": "tag",
+          "tag": "Master/high_tech",
+          "display_name": "high_tech",
+          "prefix": "Master",
+          "category": "camp"
+
+        }
+      ],
+      "eventbrite_event_id": "1028925151827",
+      "start_time": "09:00",
+      "primary_venue": {
+        "_type": "destination_venue",
+        "name": "Riyadh",
+        "venue_profile_id": null,
+        "address": {
+          "city": "Riyadh",
+          "country": "SA",
+          "region": "Riyadh Province",
+          "longitude": "46.6752957",
+          "localized_address_display": "Your premises, Riyadh, Riyadh Province 1111",
+          "postal_code": "1111",
+          "address_1": "Your premises",
+          "address_2": "",
+          "latitude": "24.7135517",
+          "localized_multi_line_address_display": [
+            "Your premises",
+            "Riyadh, Riyadh Province 1111"
+          ],
+          "localized_area_display": "Riyadh, Riyadh Province"
+        },
+        "venue_profile_url": "",
+        "id": "234340629"
+      },
+      "primary_organizer": {
+        "_type": "destination_profile",
+        "num_upcoming_events": null,
+        "name": "Day Consulting ISTQB® accredited training provider",
+        "profile_type": "organizer",
+        "num_followers": 4024,
+        "url": "https://www.eventbrite.com/o/day-consulting-istqb-accredited-training-provider-12274039026",
+        "twitter": "DayConsultingEU",
+        "summary": "All course bookings are subject to availability, the availability is updated periodically due to the dynamic nature of our business. Course availability can only be confirmed when you have received a ...",
+        "num_saves": null,
+        "image_id": "651545129",
+        "followed_by_you": false,
+        "facebook": "dayconsulting.eu",
+        "num_collections": null,
+        "id": "12274039026",
+        "website_url": null,
+        "num_following": null
+      },
+      "series_id": "1028923687447",
+      "image_id": "820513649",
+      "is_protected_event": false,
+      "is_cancelled": null,
+      "primary_venue_id": "234340629",
+      "checkout_flow": "widget",
+      "name": "ISTQB® Advanced Level Test Manager Training Course (in English) - Ryadh",
+      "language": "en-us",
+      "url": "https://www.eventbrite.com/e/istqb-advanced-level-test-manager-training-course-in-english-ryadh-tickets-1028925151827",
+      "hide_start_date": false,
+      "summary": "ISTQB® ADVANCED LEVEL TEST MANAGER \nThe aim of this course is to provide you with the knowledge and skills to pass the exam",
+      "is_online_event": false,
+      "eid": "eqhbcmdz",
+      "published": "2024-09-25T15:11:48Z"
+    },
+    {
+      "image": {
+        "edge_color_set": true,
+        "edge_color": "#354957",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F968768483%2F2543235096421%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=ffefe51176e0f887e628ded86b3c2f45",
+        "id": "968768483",
+        "crop_mask": {
+          "width": 940,
+          "height": 470,
+          "top_left": {
+            "y": 0,
+            "x": 0
+          }
+        },
+        "aspect_ratio": "2",
+        "focal_point": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F968768483%2F2543235096421%2F1%2Foriginal.png?auto=format%2Ccompress&q=75&sharp=10&s=3459a317fc3ac37c19384094ca22aa46",
+          "width": 940,
+          "height": 470
+        }
+      },
+      "saves": {
+        "saved_by_you": false
+      },
+      "event_sales_status": {
+        "start_sales_date": {
+          "timezone": "Asia/Riyadh",
+          "local": "2025-02-25T13:57:49",
+          "utc": "2025-02-25T10:57:49Z"
+        },
+        "end_sales_date": {
+          "timezone": "Asia/Riyadh",
+          "local": "2025-05-11T08:00:00",
+          "utc": "2025-05-11T05:00:00Z"
+        },
+        "default_message": null,
+        "sales_status": "on_sale",
+        "currency": "USD",
+        "message_code": null,
+        "message": null,
+        "message_type": null
+      },
+      "timezone": "Asia/Riyadh",
+      "id": "1259317746279",
+      "privacy_setting": "unlocked",
+      "tickets_by": "Eventbrite",
+      "primary_organizer_id": "107852784441",
+      "tickets_url": "https://www.eventbrite.com/checkout-external?eid=1259317746279",
+      "hide_end_date": false,
+      "date": "2025-05-11",
+      "end_time": "19:00",
+      "status": "live",
+      "_type": "destination_event",
+      "public_collections": {
+        "creator_collections": {
+          "object_count": 0,
+          "collections": []
+        }
+      },
+      "ticket_availability": {
+        "maximum_ticket_price": {
+          "currency": "USD",
+          "major_value": "854.43",
+          "value": 85443,
+          "display": "854.43 USD"
+        },
+        "minimum_ticket_price": {
+          "currency": "USD",
+          "major_value": "854.43",
+          "value": 85443,
+          "display": "854.43 USD"
+        },
+        "is_free": false,
+        "has_bogo_tickets": false,
+        "has_available_tickets": true,
+        "is_sold_out": false
+      },
+      "end_date": "2025-05-11",
+      "tags": [
+        {
+          "prefix": "EventbriteSubCategory",
+          "tag": "EventbriteSubCategory/2004",
+          "display_name": "High Tech"
+        },
+        {
+          "prefix": "EventbriteCategory",
+          "tag": "EventbriteCategory/102",
+          "display_name": "Science & Technology",
+          "localized": {
+            "display_name": "Science & Technology"
+          }
+        },
+        {
+          "prefix": "EventbriteFormat",
+          "tag": "EventbriteFormat/3",
+          "display_name": "Tradeshow, Consumer Show, or Expo"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/international",
+          "display_name": "international",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/3dprinting",
+          "display_name": "3dprinting",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/expo",
+          "display_name": "expo",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/saudi",
+          "display_name": "saudi",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/additivemanufacturing",
+          "display_name": "additivemanufacturing",
+          "prefix": "OrganizerTag",
+          "category": "fair"
+
+        }
+      ],
+      "eventbrite_event_id": "1259317746279",
+      "start_time": "09:00",
+      "primary_venue": {
+        "_type": "destination_venue",
+        "name": "AM Saudi: International 3D Printing and Additive Manufacturing Expo",
+        "venue_profile_id": null,
+        "address": {
+          "city": "Riyadh",
+          "country": "SA",
+          "region": "Riyadh Province",
+          "longitude": "46.6308668",
+          "localized_address_display": "3433 8313 Makkah Al Mukarramah Road,The Ritz-Carlton,Riyadh, Province 12912",
+          "postal_code": "12912",
+          "address_1": "3433 8313 Makkah Al Mukarramah Road",
+          "address_2": "",
+          "latitude": "24.6657249",
+          "localized_multi_line_address_display": [
+            "3433 8313 Makkah Al Mukarramah Road",
+            "Riyadh, Riyadh Province 12912"
+          ],
+          "localized_area_display": "Riyadh, Riyadh Province"
+        },
+        "venue_profile_url": "",
+        "id": "257556793"
+      },
+      "primary_organizer": {
+        "_type": "destination_profile",
+        "num_upcoming_events": null,
+        "name": null,
+        "profile_type": "organizer",
+        "num_followers": null,
+        "url": "https://www.eventbrite.com/o/107852784441",
+        "twitter": null,
+        "summary": null,
+        "num_saves": null,
+        "image_id": null,
+        "followed_by_you": false,
+        "facebook": null,
+        "num_collections": null,
+        "id": "107852784441",
+        "website_url": null,
+        "num_following": null
+      },
+      "series_id": null,
+      "image_id": "968768483",
+      "is_protected_event": false,
+      "is_cancelled": null,
+      "primary_venue_id": "257556793",
+      "checkout_flow": "widget",
+      "name": "AM Saudi: International 3D Printing and Additive Manufacturing Expo",
+      "language": "en-us",
+      "url": "https://www.eventbrite.com/e/am-saudi-international-3d-printing-and-additive-manufacturing-expo-tickets-1259317746279",
+      "hide_start_date": false,
+      "summary": "Get ready for the ultimate showcase of cutting-edge 3D printing technology at the AM Saudi Expo!",
+      "is_online_event": false,
+      "eid": "erwcxgzf",
+      "published": "2025-02-25T11:02:49Z"
+    },
+    {
+      "image": {
+        "edge_color_set": true,
+        "edge_color": "#363f17",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F989398613%2F84976872183%2F1%2Foriginal.20250321-134804?w=400&auto=format%2Ccompress&q=75&sharp=10&s=b6aa7e9a628e2bff8755c77fdadc45cc",
+        "id": "989398613",
+        "crop_mask": null,
+        "aspect_ratio": "2",
+        "focal_point": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F989398613%2F84976872183%2F1%2Foriginal.20250321-134804?auto=format%2Ccompress&q=75&sharp=10&s=f99e74f02c768c1ba50bf0efbf22b655",
+          "width": 2160,
+          "height": 1080
+        }
+      },
+      "saves": {
+        "saved_by_you": false
+      },
+      "event_sales_status": {
+        "start_sales_date": {
+          "timezone": "Asia/Riyadh",
+          "local": "2025-03-21T00:00:00",
+          "utc": "2025-03-20T21:00:00Z"
+        },
+        "end_sales_date": {
+          "timezone": "Asia/Riyadh",
+          "local": "2025-04-30T16:00:00",
+          "utc": "2025-04-30T13:00:00Z"
+        },
+        "default_message": null,
+        "sales_status": "on_sale",
+        "currency": "EUR",
+        "message_code": null,
+        "message": null,
+        "message_type": null
+      },
+      "timezone": "Asia/Riyadh",
+      "id": "1296844419569",
+      "privacy_setting": "unlocked",
+      "tickets_by": "Eventbrite",
+      "primary_organizer_id": "5851128185",
+      "tickets_url": "https://www.eventbrite.com/checkout-external?eid=1296844419569",
+      "hide_end_date": false,
+      "date": "2025-04-28",
+      "end_time": "16:00",
+      "status": "live",
+      "_type": "destination_event",
+      "public_collections": {
+        "creator_collections": {
+          "object_count": 0,
+          "collections": []
+        }
+      },
+      "ticket_availability": {
+        "maximum_ticket_price": {
+          "currency": "EUR",
+          "major_value": "1572.75",
+          "value": 157275,
+          "display": "1572.75 EUR"
+        },
+        "minimum_ticket_price": {
+          "currency": "EUR",
+          "major_value": "1048.55",
+          "value": 104855,
+          "display": "1048.55 EUR"
+        },
+        "is_free": false,
+        "has_bogo_tickets": false,
+        "has_available_tickets": true,
+        "is_sold_out": false
+      },
+      "end_date": "2025-04-30",
+      "tags": [
+        {
+          "prefix": "EventbriteSubCategory",
+          "tag": "EventbriteSubCategory/2999",
+          "display_name": "Other"
+        },
+        {
+          "prefix": "EventbriteCategory",
+          "tag": "EventbriteCategory/102",
+          "display_name": "Science & Technology",
+          "localized": {
+            "display_name": "Science & Technology"
+          }
+        },
+        {
+          "prefix": "EventbriteFormat",
+          "tag": "EventbriteFormat/1",
+          "display_name": "Conference"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/hazmat",
+          "display_name": "hazmat",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/defense",
+          "display_name": "defense",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/eod",
+          "display_name": "eod",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/cbrn",
+          "display_name": "cbrn",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/cbrne",
+          "display_name": "cbrne",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/nct_middle_east_2025",
+          "display_name": "nct_middle_east_2025",
+          "prefix": "OrganizerTag",
+          "category": "fair"
+
+        }
+      ],
+      "eventbrite_event_id": "1296844419569",
+      "start_time": "08:00",
+      "primary_venue": {
+        "_type": "destination_venue",
+        "name": "NCT Middle East 2025",
+        "venue_profile_id": null,
+        "address": {
+          "city": "Riyadh",
+          "country": "SA",
+          "region": "Riyadh Province",
+          "longitude": "46.69674699999999",
+          "localized_address_display": "King Fahd Road, Riyadh, Riyadh Province 13003",
+          "postal_code": "13003",
+          "address_1": "King Fahd Road",
+          "address_2": "",
+          "latitude": "24.6666516",
+          "localized_multi_line_address_display": [
+            "King Fahd Road",
+            "Riyadh, Riyadh Province 13003"
+          ],
+          "localized_area_display": "Riyadh, Riyadh Province"
+        },
+        "venue_profile_url": "",
+        "id": "261892493"
+      },
+      "primary_organizer": {
+        "_type": "destination_profile",
+        "num_upcoming_events": null,
+        "name": "NCT Consultants",
+        "profile_type": "organizer",
+        "num_followers": 272,
+        "url": "https://www.eventbrite.com/o/nct-consultants-5851128185",
+        "twitter": "ibconsultancy",
+        "summary": null,
+        "num_saves": null,
+        "image_id": "14565875",
+        "followed_by_you": false,
+        "facebook": "ibconsultancy",
+        "num_collections": null,
+        "id": "5851128185",
+        "website_url": "http://www.nct-events.com",
+        "num_following": null
+      },
+      "series_id": null,
+      "image_id": "989398613",
+      "is_protected_event": false,
+      "is_cancelled": null,
+      "primary_venue_id": "261892493",
+      "checkout_flow": "widget",
+      "name": "NCT Middle East 2025",
+      "language": "en-us",
+      "url": "https://www.eventbrite.com/e/nct-middle-east-2025-tickets-1296844419569",
+      "hide_start_date": false,
+      "summary": "The first-ever CBRNE event in Saudi Arabia, NCT Middle East 2025 will welcome the highest-ranking decision-makers in the region.",
+      "is_online_event": false,
+      "eid": "etbdcyyt",
+      "published": "2025-03-21T14:00:52Z"
+    },
+    {
+      "image": {
+        "edge_color_set": true,
+        "edge_color": "#f1f6f3",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F492172619%2F262347974128%2F1%2Foriginal.20220727-130048?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C98%2C1920%2C960&s=eec2d2b0cca693d4da450e98b43d6510",
+        "id": "492172619",
+        "crop_mask": {
+          "width": 1920,
+          "height": 960,
+          "top_left": {
+            "y": 98,
+            "x": 0
+          }
+        },
+        "aspect_ratio": "2",
+        "focal_point": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F492172619%2F262347974128%2F1%2Foriginal.20220727-130048?auto=format%2Ccompress&q=75&sharp=10&s=597082fde18c9c854a1531368e799ee4",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "saves": {
+        "saved_by_you": false
+      },
+      "event_sales_status": {
+        "start_sales_date": {
+          "timezone": "Asia/Riyadh",
+          "local": "1970-01-01T00:00:00",
+          "utc": "1969-12-31T21:00:00Z"
+        },
+        "end_sales_date": {
+          "timezone": "Asia/Riyadh",
+          "local": "2025-03-28T18:00:00",
+          "utc": "2025-03-28T15:00:00Z"
+        },
+        "default_message": null,
+        "sales_status": "on_sale",
+        "currency": "USD",
+        "message_code": null,
+        "message": null,
+        "message_type": null
+      },
+      "timezone": "Asia/Riyadh",
+      "id": "617285636957",
+      "privacy_setting": "unlocked",
+      "tickets_by": "Eventbrite",
+      "primary_organizer_id": "17526467445",
+      "tickets_url": "https://www.eventbrite.com/checkout-external?eid=617285636957",
+      "hide_end_date": false,
+      "date": "2025-03-28",
+      "end_time": "22:00",
+      "status": "live",
+      "_type": "destination_event",
+      "public_collections": {
+        "creator_collections": {
+          "object_count": 0,
+          "collections": []
+        }
+      },
+      "ticket_availability": {
+        "maximum_ticket_price": {
+          "currency": "USD",
+          "major_value": "99.99",
+          "value": 9999,
+          "display": "99.99 USD"
+        },
+        "minimum_ticket_price": {
+          "currency": "USD",
+          "major_value": "99.99",
+          "value": 9999,
+          "display": "99.99 USD"
+        },
+        "is_free": false,
+        "has_bogo_tickets": false,
+        "has_available_tickets": true,
+        "is_sold_out": false
+      },
+      "end_date": "2025-03-28",
+      "tags": [
+        {
+          "prefix": "EventbriteSubCategory",
+          "tag": "EventbriteSubCategory/2004",
+          "display_name": "High Tech"
+        },
+        {
+          "prefix": "EventbriteCategory",
+          "tag": "EventbriteCategory/102",
+          "display_name": "Science & Technology",
+          "localized": {
+            "display_name": "Science & Technology"
+          }
+        },
+        {
+          "prefix": "EventbriteFormat",
+          "tag": "EventbriteFormat/9",
+          "display_name": "Class, Training, or Workshop"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/ai",
+          "display_name": "ai",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/machinelearning",
+          "display_name": "machinelearning",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/startups",
+          "display_name": "startups",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/artificialintelligence",
+          "display_name": "artificialintelligence",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/machine_learning",
+          "display_name": "machine_learning",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/artificial_intelligence",
+          "display_name": "artificial_intelligence",
+          "prefix": "OrganizerTag"
+        },
+        {
+          "_type": "tag",
+          "tag": "OrganizerTag/machine_learning_course",
+          "display_name": "machine_learning_course",
+          "prefix": "OrganizerTag",
+          "category": "lecture"
+
+        }
+      ],
+      "eventbrite_event_id": "617285636957",
+      "start_time": "19:00",
+      "primary_venue": {
+        "_type": "destination_venue",
+        "name": "ALGORYTHM™️| Intro to Machine Learning",
+        "venue_profile_id": null,
+        "address": {
+          "city": "Riyadh",
+          "country": "SA",
+          "region": "",
+          "longitude": "46.6752957",
+          "localized_address_display": ". ., Riyadh, 00000",
+          "postal_code": "00000",
+          "address_1": ".",
+          "address_2": ".",
+          "latitude": "24.7135517",
+          "localized_multi_line_address_display": [
+            ".",
+            ".",
+            "Riyadh, 00000"
+          ],
+          "localized_area_display": "Riyadh"
+        },
+        "venue_profile_url": "",
+        "id": "149460939"
+      },
+      
+      "primary_organizer": {
+        "_type": "destination_profile",
+        "num_upcoming_events": null,
+        "name": "Kat Usop, MSHI",
+        "profile_type": "organizer",
+        "num_followers": 19176,
+        "url": "https://www.eventbrite.com/o/kat-usop-mshi-17526467445",
+        "twitter": "itskatusop",
+        "summary": "Hi! I am a nomad Eng'r in Health & AI space (NYIT, ex-Duke, ex-Mizzou). I create  & share knowledge from real-world experiences. I build sustainable ventures while traveling long-term. PS If min. seat...",
+        "num_saves": null,
+        "image_id": "62097997",
+        "followed_by_you": false,
+        "facebook": null,
+        "num_collections": null,
+        "id": "17526467445",
+        "website_url": "http://katusop.com",
+        "num_following": null
+      },
+      "series_id": "617283781407",
+      "image_id": "492172619",
+      "is_protected_event": false,
+      "is_cancelled": null,
+      "primary_venue_id": "149460939",
+      "checkout_flow": "widget",
+      "name": "ALGORYTHM™️| Intro to Machine Learning",
+      "language": "en-us",
+      "url": "https://www.eventbrite.com/e/algorythmtm-intro-to-machine-learning-tickets-617285636957",
+      "hide_start_date": false,
+      "summary": "Predicting the future is not magic, it's artificial intelligence. – Dave Waters",
+      "is_online_event": false,
+      "eid": "egtdwpmh",
+      "published": "2023-04-13T18:57:10Z"
+    },
+    {
+      "image": {
+        "edge_color_set": true,
+        "edge_color": "#ffffff",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F50936227%2F195639312499%2F1%2Foriginal.jpg?w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C154%2C450%2C225&s=691426f3c65300b263212e82fc574c93",
+        "id": "50936227",
+        "crop_mask": {
+          "width": 450,
+          "height": 225,
+          "top_left": {
+            "y": 154,
+            "x": 0
+          }
+        },
+        "aspect_ratio": "2",
+        "focal_point": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F50936227%2F195639312499%2F1%2Foriginal.jpg?auto=format%2Ccompress&q=75&sharp=10&s=c9d3a3167caa16b47a4bca7d10b59877",
+          "width": 450,
+          "height": 450
+        }
+      },
+      "saves": {
+        "saved_by_you": false
+      },
+      "event_sales_status": {
+        "start_sales_date": {
+          "timezone": "Asia/Riyadh",
+          "local": "1970-01-01T00:00:00",
+          "utc": "1969-12-31T21:00:00Z"
+        },
+        "end_sales_date": {
+          "timezone": "Asia/Riyadh",
+          "local": "2025-04-08T08:00:00",
+          "utc": "2025-04-08T05:00:00Z"
+        },
+        "default_message": null,
+        "sales_status": "on_sale",
+        "currency": "EUR",
+        "message_code": null,
+        "message": null,
+        "message_type": null
+      },
+      "timezone": "Asia/Riyadh",
+      "id": "847434879537",
+      "privacy_setting": "unlocked",
+      "tickets_by": "Eventbrite",
+      "primary_organizer_id": "12274039026",
+      "tickets_url": "https://www.eventbrite.com/checkout-external?eid=847434879537",
+      "hide_end_date": false,
+      "date": "2025-04-08",
+      "end_time": "17:00",
+      "status": "live",
+      "_type": "destination_event",
+      "public_collections": {
+        "creator_collections": {
+          "object_count": 0,
+          "collections": []
+        }
+      },
+      "ticket_availability": {
+        "maximum_ticket_price": {
+          "currency": "EUR",
+          "major_value": "2600.00",
+          "value": 260000,
+          "display": "2600.00 EUR"
+        },
+        "minimum_ticket_price": {
+          "currency": "EUR",
+          "major_value": "1899.99",
+          "value": 189999,
+          "display": "1899.99 EUR"
+        },
+        "is_free": false,
+        "has_bogo_tickets": false,
+        "has_available_tickets": true,
+        "is_sold_out": false
+      },
+      "end_date": "2025-04-08",
+      "tags": [
+        {
+          "prefix": "EventbriteSubCategory",
+          "tag": "EventbriteSubCategory/2004",
+          "display_name": "High Tech"
+        },
+        {
+          "prefix": "EventbriteCategory",
+          "tag": "EventbriteCategory/102",
+          "display_name": "Science & Technology",
+          "localized": {
+            "display_name": "Science & Technology"
+          }
+        },
+        {
+          "prefix": "EventbriteFormat",
+          "tag": "EventbriteFormat/2",
+          "display_name": "Seminar or Talk",
+          "category": "camp"
+
+        }
+      ],
+      "eventbrite_event_id": "847434879537",
+      "start_time": "09:00",
+      "primary_venue": {
+        "_type": "destination_venue",
+        "name": "ISTQB® Foundation Exam and Training Course (3 days, English) - Riyadh",
+        "venue_profile_id": null,
+        "address": {
+          "city": "Riyadh",
+          "country": "SA",
+          "region": "Riyadh Province",
+          "longitude": "46.6829431",
+          "localized_address_display": "Regus, Riyadh, Riyadh Province 1234",
+          "postal_code": "1234",
+          "address_1": "Regus",
+          "address_2": "",
+          "latitude": "24.691647",
+          "localized_multi_line_address_display": [
+            "Regus",
+            "Riyadh, Riyadh Province 1234"
+          ],
+          "localized_area_display": "Riyadh, Riyadh Province"
+        },
+        "venue_profile_url": "",
+        "id": "48468561"
+      },
+      
+      "primary_organizer": {
+        "_type": "destination_profile",
+        "num_upcoming_events": null,
+        "name": "Day Consulting ISTQB® accredited training provider",
+        "profile_type": "organizer",
+        "num_followers": 4024,
+        "url": "https://www.eventbrite.com/o/day-consulting-istqb-accredited-training-provider-12274039026",
+        "twitter": "DayConsultingEU",
+        "summary": "All course bookings are subject to availability, the availability is updated periodically due to the dynamic nature of our business. Course availability can only be confirmed when you have received a ...",
+        "num_saves": null,
+        "image_id": "651545129",
+        "followed_by_you": false,
+        "facebook": "dayconsulting.eu",
+        "num_collections": null,
+        "id": "12274039026",
+        "website_url": null,
+        "num_following": null
+      },
+      "series_id": "51119309230",
+      "image_id": "50936227",
+      "is_protected_event": false,
+      "is_cancelled": null,
+      "primary_venue_id": "48468561",
+      "checkout_flow": "widget",
+      "name": "ISTQB® Foundation Exam and Training Course (3 days, English) - Riyadh",
+      "language": "en-us",
+      "url": "https://www.eventbrite.com/e/istqb-foundation-exam-and-training-course-3-days-english-riyadh-tickets-847434879537",
+      "hide_start_date": false,
+      "summary": "ISTQB® FOUNDATION TRAINING COURSE in Saudi Arabia\nThe aim of this course is to provide you with the knowledge and skills to pass an exam certifying you as an ISTQB® Certified Tester - Foundation Level. Most organisations require this certification as a minimum skill requirement for software testers. In this course you will learn a standardized approach to software testing that will be immediately applicable to your projects. In order to get the certification you will be required to pass a 60-min",
+      "is_online_event": false,
+      "eid": "847434879537",
+      "published": "2018-10-07T17:56:23Z"
+    },
+    [
+      {
+        "name":"تحليل البيانات وإعداد التقارير باستخدام مايكروسوفت Power BI",
+        "start":"2025-11-09T10:00:00",
+        "end": "2025-11-11T17:00:00",
+        "duration_days": 3,
+        "status": "live",
+        "primary_venue": {
+          "_type": "destination_venue",
+          "name": "تحليل البيانات وإعداد التقارير باستخدام مايكروسوفت Power BI",
+          "venue_profile_id": null,
+          "address": {
+            "city": "Riyadh",
+            "country": "SA",
+            "region": "Riyadh",
+            "longitude": "46.641323228835105",
+            "localized_address_display": "King Abdullah Financial District - KAFD",
+            "postal_code": "13003",
+            "address_1": "The Financial Academy",
+            "address_2": "",
+            "latitude": "24.76658040580608",
+            "localized_multi_line_address_display": [
+              "King Abdullah Financial District",
+              "QJ8R+GGX, Al Aqiq, Riyadh 13519"
+            ],
+            "localized_area_display": "Riyadh"
+          },
+          "venue_profile_url": "",
+          "id": "22222222"
+        },
+        "url": "https://fa.gov.sa/Services/ProgramDetails/17ce658d-32b1-4345-9e54-aebc00ec8e60",
+        "image_url": "public/src/assets/images/Power BI.jpg"
+      }
+      
+    ]
+  ]
+}
