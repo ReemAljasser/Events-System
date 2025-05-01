@@ -14,9 +14,7 @@ This project aims to develop a comprehensive event management system that allows
 Java language.
 Swing interfaces.
 MySQL.
-حح
-؛اح
-؛
+
 ## Future Development Ideas:
 -	Send email reminders or phone notifications.
 -	Supports translation and application use in multiple languages.
