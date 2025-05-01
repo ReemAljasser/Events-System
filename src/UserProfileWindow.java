@@ -36,7 +36,7 @@ public class UserProfileWindow extends JFrame {
         nameLabel = new JLabel("User Name 👤: " + getUsernameFromDatabase());
         favCountLabel = new JLabel("Favorite Events Count ❤️: " + getFavoriteCount(userId));
 
-        ImageIcon icon2 = new ImageIcon("resources/image/check-out (1).png");// استبدل المسار بمسار الأيقونة لديك  
+        ImageIcon icon2 = new ImageIcon("src/icon/check-out (1).png");// استبدل المسار بمسار الأيقونة لديك  
         // تغيير حجم الأيقونة إلى 32x32 بكسل (يمكنك تغيير الأبعاد حسب الحاجة)  
        Image image2 = icon2.getImage().getScaledInstance(32, 32, Image.SCALE_SMOOTH);  
        ImageIcon resizedIcon2 = new ImageIcon(image2); 

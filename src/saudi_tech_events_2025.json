@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "LEAP 2025",
+        "date": "2025-03-10",
+        "location": "Riyadh Front Exhibition & Conference Center, Riyadh, Saudi Arabia",
+        "category": "Conference"
+    },
+    {
+        "id": 2,
+        "name": "Black Hat MEA 2025",
+        "date": "2025-11-04",
+        "location": "Riyadh Front Exhibition & Conference Center, Riyadh, Saudi Arabia",
+        "category": "Exhibition"
+    },
+    {
+        "id": 3,
+        "name": "Saudi International IoT Exhibition 2025",
+        "date": "2025-02-17",
+        "location": "Riyadh International Convention & Exhibition Center, Riyadh, Saudi Arabia",
+        "category": "Exhibition"
+    },
+    {
+        "id": 4,
+        "name": "Seamless Saudi Arabia 2025",
+        "date": "2025-09-02",
+        "location": "Riyadh Front Exhibition & Conference Center, Riyadh, Saudi Arabia",
+        "category": "Conference"
+    },
+    {
+        "id": 5,
+        "name": "Future Smart Cities Forum 2025",
+        "date": "2025-05-20",
+        "location": "Jeddah, Saudi Arabia",
+        "category": "Seminar"
+    },
+    {
+        "id": 6,
+        "name": "AI Summit Saudi 2025",
+        "date": "2025-06-15",
+        "location": "Neom, Saudi Arabia",
+        "category": "Conference"
+    },
+    {
+        "id": 7,
+        "name": "Cybersecurity Bootcamp Eastern Province 2025",
+        "date": "2025-07-05",
+        "location": "Dammam, Saudi Arabia",
+        "category": "Bootcamp"
+    },
+    {
+        "id": 8,
+        "name": "Blockchain Expo Saudi 2025",
+        "date": "2025-08-10",
+        "location": "Khobar, Saudi Arabia",
+        "category": "Exhibition"
+    }
+]

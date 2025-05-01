@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "JSONToMySQL",
+      "request": "launch",
+      "mainClass": "JSONToMySQL",
+      "projectName": "Events-java-swing_989f9176"
+    },
+    {
+      "type": "java",
       "name": "Calendar3",
       "request": "launch",
       "mainClass": "Calendar3",

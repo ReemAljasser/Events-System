@@ -16,7 +16,7 @@ public class AdminPanel extends JFrame {
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
         
-        ImageIcon icon = new ImageIcon("resources/image/user.png");// استبدل المسار بمسار الأيقونة لديك  
+        ImageIcon icon = new ImageIcon("icon/user.png");// استبدل المسار بمسار الأيقونة لديك  
          // تغيير حجم الأيقونة إلى 32x32 بكسل (يمكنك تغيير الأبعاد حسب الحاجة)  
         Image image = icon.getImage().getScaledInstance(32, 32, Image.SCALE_SMOOTH);  
         ImageIcon resizedIcon = new ImageIcon(image);  

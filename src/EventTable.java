@@ -7,13 +7,21 @@ import java.awt.*;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import com.formdev.flatlaf.FlatLightLaf;
+import com.toedter.calendar.JDateChooser;
 
 
 
 public class EventTable extends JFrame {
     private JTable eventTable;
     private DefaultTableModel tableModel;
+    private JTextField searchField;
+    private JButton searchButton;
+    private JComboBox<String> categoryComboBox;
+    private JDateChooser dateChooser;
 
     public EventTable() {
         setTitle("📋 Events list");
@@ -63,7 +71,7 @@ public class EventTable extends JFrame {
         // 📅 زر عرض التقويم
 JButton calendarButton = createStyledButton("Calendar", new Color(60, 179, 113)); // أخضر ناعم
 calendarButton.addActionListener(e -> {
-  new ShowCalendar().setVisible(true);
+  new CalendarWithDB().setVisible(true);
 });
 
         // ✅ إضافة الأزرار في الأسفل
@@ -78,7 +86,202 @@ calendarButton.addActionListener(e -> {
 
         // 📥 جلب البيانات عند التشغيل
         loadEventsFromDatabase();
+        
+        // 🔎 شريط البحث
+searchField = new JTextField(20);
+searchField.setFont(new Font("Arial", Font.PLAIN, 14));
+
+searchButton = createStyledButton("Search", new Color(100, 149, 237)); // أزرق فاتح
+searchButton.addActionListener(e -> performSearch());
+
+// ✅ إضافة البحث فوق الجدول
+JPanel topPanel = new JPanel();
+topPanel.setBackground(new Color(240, 240, 240)); // خلفية رمادية فاتحة
+topPanel.add(createStyledLabel("Search:"));
+topPanel.add(searchField);
+topPanel.add(searchButton);
+
+add(topPanel, BorderLayout.NORTH);
+
+// أضف هذا في الجهة العلوية للنافذة مع خانة البحث
+categoryComboBox = new JComboBox<>(new String[]{"All", "Workshops", "Exhibitions", "Lectures", "Hackathons","Bootcamp","Conference","Lecture"});
+categoryComboBox.setFont(new Font("Arial", Font.PLAIN, 14));
+
+// زر الفلترة حسب التصنيف
+JButton filterCategoryButton = createStyledButton("Filter by Category", new Color(100, 149, 237));
+filterCategoryButton.addActionListener(e -> filterByCategory());
+
+// أضف comboBox و filterButton إلى topPanel مثل ما فعلنا مع خانة البحث
+topPanel.add(createStyledLabel("Category:"));
+topPanel.add(categoryComboBox);
+topPanel.add(filterCategoryButton);
+
+// في دالة البناء (EventTable)
+dateChooser = new JDateChooser();
+dateChooser.setFont(new Font("Arial", Font.PLAIN, 14));
+dateChooser.setDateFormatString("yyyy-MM-dd"); // تنسيق التاريخ
+
+// زر الفلترة حسب التاريخ
+JButton filterDateButton = createStyledButton("Filter by Date", new Color(100, 149, 237));
+filterDateButton.addActionListener(e -> filterByDate());
+
+// أضف dateChooser و filterDateButton إلى topPanel
+topPanel.add(createStyledLabel("Date:"));
+topPanel.add(dateChooser);
+topPanel.add(filterDateButton);
+
+// إضافة زر Clear
+JButton clearButton = createStyledButton("Clear Filters", new Color(255, 69, 0)); // أحمر
+clearButton.addActionListener(e -> clearFilters());
+
+// إضافة الزر في نفس الواجهة
+topPanel.add(clearButton);
+
+
     }
+
+
+    private JLabel createStyledLabel(String text) {
+      JLabel label = new JLabel(text);
+      label.setFont(new Font("Arial", Font.BOLD, 14)); // تغيير نوع الخط وحجمه
+      label.setForeground(new Color(83, 30, 141)); // تغيير اللون إلى لون مميز (مثل اللون البنفسجي)
+      label.setHorizontalAlignment(SwingConstants.LEFT); // محاذاة النص لليسار
+      label.setBackground(new Color(240, 240, 240)); // تعيين خلفية بلون فاتح
+      label.setOpaque(true); // تفعيل الشفافية ليظهر لون الخلفية
+      label.setBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10)); // إضافة padding حول النص
+      return label;
+  }
+  
+
+
+    private void clearFilters() {
+      // إعادة مسح قيمة خانة البحث
+      searchField.setText("");  // تأكد أنك حافظت على اسم الـ JTextField كـ searchField
+      
+      // إعادة تعيين التصنيف إلى "All"
+      categoryComboBox.setSelectedItem("All");
+  
+      // إعادة تعيين التاريخ إلى null
+      dateChooser.setDate(null);  // تأكد من أن لديك JDateChooser اسمه dateChooser
+  
+      // إعادة تحميل الجدول بالكامل بدون فلاتر
+      tableModel.setRowCount(0);  // مسح الجدول
+      loadEventsFromDatabase();    // تحميل الفعاليات من قاعدة البيانات بدون أي فلترة
+  }
+  
+
+    private void filterByDate() {
+    Date selectedDate = dateChooser.getDate();
+    
+    if (selectedDate == null) {
+        JOptionPane.showMessageDialog(this, "⚠️ Please select a date.");
+        return;
+    }
+
+    // تحويل التاريخ إلى string
+    SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+    String dateString = dateFormat.format(selectedDate);
+
+    tableModel.setRowCount(0); // مسح الجدول قبل إضافة البيانات الجديدة
+    
+    try {
+        Connection conn = DBConnection.getConnection();
+        Statement stmt = conn.createStatement();
+        
+        String query = "SELECT name, date, location, category FROM events WHERE date = '" + dateString + "'";
+        
+        ResultSet rs = stmt.executeQuery(query);
+        
+        while (rs.next()) {
+            String name = rs.getString("name");
+            String date = rs.getString("date");
+            String location = rs.getString("location");
+            String category = rs.getString("category");
+
+            tableModel.addRow(new Object[]{ category, location, date, name });
+        }
+
+        conn.close();
+    } catch (Exception e) {
+        e.printStackTrace();
+        JOptionPane.showMessageDialog(this, "An error occurred while filtering by date.");
+    }
+}
+
+    
+    private void filterByCategory() {
+      String selectedCategory = (String) categoryComboBox.getSelectedItem();
+      
+      tableModel.setRowCount(0); // مسح الجدول قبل إضافة البيانات الجديدة
+      
+      try {
+          Connection conn = DBConnection.getConnection();
+          Statement stmt = conn.createStatement();
+          
+          String query = "SELECT name, date, location, category FROM events";
+          
+          // إذا اختار المستخدم تصنيف معين، نفلتر بناءً عليه
+          if (!"All".equals(selectedCategory)) {
+              query += " WHERE category = '" + selectedCategory + "'";
+          }
+  
+          ResultSet rs = stmt.executeQuery(query);
+          
+          while (rs.next()) {
+              String name = rs.getString("name");
+              String date = rs.getString("date");
+              String location = rs.getString("location");
+              String category = rs.getString("category");
+  
+              tableModel.addRow(new Object[]{ category, location, date, name });
+          }
+  
+          conn.close();
+      } catch (Exception e) {
+          e.printStackTrace();
+          JOptionPane.showMessageDialog(this, "An error occurred while filtering by category.");
+      }
+  }
+  
+
+    private void performSearch() {
+      String keyword = searchField.getText().trim();
+  
+      if (keyword.isEmpty()) {
+          JOptionPane.showMessageDialog(this, "⚠️ Please enter a search term.");
+          return;
+      }
+  
+      tableModel.setRowCount(0); // 🧹 مسح الجدول قبل تعبئته من جديد
+  
+      try {
+          Connection conn = DBConnection.getConnection();
+          Statement stmt = conn.createStatement();
+  
+          // 🟢 SQL يدور على الاسم، أو الموقع، أو الفئة
+          String query = "SELECT name, date, location, category FROM events WHERE "
+                  + "name LIKE '%" + keyword + "%' OR "
+                  + "location LIKE '%" + keyword + "%' OR "
+                  + "category LIKE '%" + keyword + "%'";
+  
+          ResultSet rs = stmt.executeQuery(query);
+  
+          while (rs.next()) {
+              String name = rs.getString("name");
+              String date = rs.getString("date");
+              String location = rs.getString("location");
+              String category = rs.getString("category");
+  
+              tableModel.addRow(new Object[]{ category, location, date, name });
+          }
+  
+          conn.close();
+      } catch (Exception e) {
+          e.printStackTrace();
+          JOptionPane.showMessageDialog(this, "An error occurred while searching.");
+      }
+  }
+  
 
     private JButton createStyledButton(String text, Color bgColor) {
         JButton button = new JButton(text);

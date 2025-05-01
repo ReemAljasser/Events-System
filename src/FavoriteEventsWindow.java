@@ -27,12 +27,12 @@ public class FavoriteEventsWindow extends JFrame {
         table.setFont(new Font("Arial", Font.PLAIN, 14));
         table.setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT);
 
-        ImageIcon icon = new ImageIcon("resources/image/pdf.png");// استبدل المسار بمسار الأيقونة لديك  
+        ImageIcon icon = new ImageIcon("src/icon/pdf.png");// استبدل المسار بمسار الأيقونة لديك  
          // تغيير حجم الأيقونة إلى 32x32 بكسل (يمكنك تغيير الأبعاد حسب الحاجة)  
         Image image = icon.getImage().getScaledInstance(32, 32, Image.SCALE_SMOOTH);  
         ImageIcon resizedIcon = new ImageIcon(image);  
         
-        ImageIcon icon2 = new ImageIcon("resources/image/trash.png");// استبدل المسار بمسار الأيقونة لديك  
+        ImageIcon icon2 = new ImageIcon("src/icon/trash.png");// استبدل المسار بمسار الأيقونة لديك  
          // تغيير حجم الأيقونة إلى 32x32 بكسل (يمكنك تغيير الأبعاد حسب الحاجة)  
         Image image2 = icon2.getImage().getScaledInstance(32, 32, Image.SCALE_SMOOTH);  
         ImageIcon resizedIcon2 = new ImageIcon(image2); 
@@ -46,12 +46,17 @@ public class FavoriteEventsWindow extends JFrame {
         deleteButton.setForeground(Color.WHITE);
         deleteButton.setFont(new Font("Tahoma", Font.BOLD, 14));
         deleteButton.addActionListener(e -> deleteSelectedFavorite());
+        deleteButton.setFocusPainted(false);
+        deleteButton.setBorderPainted(false);
+
 
         // 📄 زر تصدير
         JButton exportButton = new JButton("Export to PDF ", resizedIcon);
         exportButton.setBackground(new Color(46, 204, 113));
         exportButton.setForeground(Color.WHITE);
         exportButton.setFont(new Font("Tahoma", Font.BOLD, 14));
+        exportButton.setFocusPainted(false);
+        exportButton.setBorderPainted(false);
         exportButton.addActionListener(e -> {
           String username = Session.getUsername();  // تأكدي أنه موجود بالـ Session
           FavoriteEventsExporter.exportToPDF(userId, username);

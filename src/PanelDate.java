@@ -7,10 +7,12 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 import java.sql.*;
 
 
@@ -53,7 +55,7 @@ public class PanelDate extends javax.swing.JLayeredPane {
         e.printStackTrace();
     }
 }
-    private void setDate() {
+    void setDate() {
       Calendar calendar = Calendar.getInstance();
       calendar.set(Calendar.YEAR, year);
       calendar.set(Calendar.MONTH, month - 1);
@@ -379,4 +381,9 @@ public class PanelDate extends javax.swing.JLayeredPane {
     private Cell wed;
     private List<Date> dbDates;
     // End of variables declaration//GEN-END:variables
+
+    public void setSelectedDates(Set<LocalDate> eventDates) {
+      // TODO Auto-generated method stub
+      throw new UnsupportedOperationException("Unimplemented method 'setSelectedDates'");
+    }
 }

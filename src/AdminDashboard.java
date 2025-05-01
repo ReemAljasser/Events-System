@@ -34,7 +34,7 @@ public class AdminDashboard extends JFrame {
         nameField = new JTextField(15);  
         dateField = new JTextField(10);  
         locationField = new JTextField(10);  
-        categoryBox = new JComboBox<>(new String[]{"lecture", "camp", "fair"});  
+        categoryBox = new JComboBox<>(new String[]{"Workshops", "Exhibitions", "Lectures", "Hackathons","Bootcamp","Conference","Lecture"});  
 
         // الزر  
         JButton addButton = new JButton("Add an event");  
@@ -49,7 +49,7 @@ public class AdminDashboard extends JFrame {
                 // فتح نافذة EventTable
         });
 
-        ImageIcon icon2 = new ImageIcon("resources/image/pdf.png");// استبدل المسار بمسار الأيقونة لديك  
+        ImageIcon icon2 = new ImageIcon("src/icon/pdf.png");// استبدل المسار بمسار الأيقونة لديك  
         // تغيير حجم الأيقونة إلى 32x32 بكسل (يمكنك تغيير الأبعاد حسب الحاجة)  
        Image image2 = icon2.getImage().getScaledInstance(32, 32, Image.SCALE_SMOOTH);  
        ImageIcon resizedIcon2 = new ImageIcon(image2); 
