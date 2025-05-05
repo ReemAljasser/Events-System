@@ -48,7 +48,7 @@ Figure 8:Admaistetor Control Interface
 -	Supports translation and application use in multiple languages.
 -	adding more accurate tracking of user interaction with events.
 
--	👩‍🎓 Developed By:
+👩‍🎓 Developed By:
 Reem Aljasser Computer Science Student
 
 During COOP Training At WAKEB Company For Artificial Intelligence
