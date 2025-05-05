@@ -37,7 +37,7 @@ Figure 6:Export All Events to PDF
 ![image](https://github.com/user-attachments/assets/2607b694-ee11-4ccc-af46-b18865d107ff)
 Figure 7:Output of The PDF
 
-![image](https://github.com/user-attachments/assets/e5a4bdc2-e6fc-4528-a6cc-9b1cf6352eb7)
+![image](https://github.com/user-attachments/assets/bf9694bc-722c-41af-aef4-8682c3c67ef1)
 Figure 8:Admaistetor Control Interface
 
 
