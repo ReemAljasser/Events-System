@@ -15,8 +15,36 @@ Java language.
 Swing interfaces.
 MySQL.
 
+## Screenshots:
+![image](https://github.com/user-attachments/assets/d47a1922-e119-48b0-a5d2-79c9975711bd)
+Figure 1: Login Interface
+
+![image](https://github.com/user-attachments/assets/124981c0-7fa3-496e-b97f-12e40b02c231)
+Figure 2:User Profile Interface
+
+![image](https://github.com/user-attachments/assets/fb7f526f-b5da-4c7b-b83a-6dab91a3e660)
+Figure 3:Favorite Events Interface
+
+![image](https://github.com/user-attachments/assets/83c61689-563d-4a93-8685-f3050c275126)
+Figure 4:Events List Interface
+
+![image](https://github.com/user-attachments/assets/f9aa6ed3-ab78-4ff4-a6fc-effb909bf0ef)
+Figure 5:Login As Admin
+
+![image](https://github.com/user-attachments/assets/88ce1d20-df7a-4c25-aded-1bcf69f11d01)
+Figure 6:Export All Events to PDF
+
+![image](https://github.com/user-attachments/assets/2607b694-ee11-4ccc-af46-b18865d107ff)
+Figure 7:Output of The PDF
+
+![image](https://github.com/user-attachments/assets/e7b09590-9129-4459-8c96-3ae60c1b950e)
+Figure 8:Admaistetor Control Interface
+
+
+
+
 ## Future Development Ideas:
--	Send email reminders or phone notifications.
+-	Send email reminders for notifications.
 -	Supports translation and application use in multiple languages.
 
 -	👩‍🎓 Developed By:
