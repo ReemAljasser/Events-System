@@ -8,7 +8,7 @@ This project aims to develop a comprehensive event management system that allows
 4. Saving Favorite Events: The user can select the events they like, they are added to a "Favorites" also can Delated form the list.
 5. Export Favorite Events to PDF.
 6. Search events and filtering feature by categories and by date.
-7. Administrator Powers: Add new events, Edit or delete events, Review all users registered in the system, Monitor user interaction with events Export Summery of all Events to PDF.
+7. Administrator Powers: Add new events, Edit or delete events, Review all users registered in the system, delete users also Export Summery of all Events to PDF.
 
 ## Technologies Used:
 Java language.
@@ -37,7 +37,7 @@ Figure 6:Export All Events to PDF
 ![image](https://github.com/user-attachments/assets/2607b694-ee11-4ccc-af46-b18865d107ff)
 Figure 7:Output of The PDF
 
-![image](https://github.com/user-attachments/assets/e7b09590-9129-4459-8c96-3ae60c1b950e)
+![image](https://github.com/user-attachments/assets/e5a4bdc2-e6fc-4528-a6cc-9b1cf6352eb7)
 Figure 8:Admaistetor Control Interface
 
 
