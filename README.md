@@ -46,6 +46,7 @@ Figure 8:Admaistetor Control Interface
 ## Future Development Ideas:
 -	Send email reminders for notifications.
 -	Supports translation and application use in multiple languages.
+-	adding more accurate tracking of user interaction with events.
 
 -	👩‍🎓 Developed By:
 Reem Aljasser Computer Science Student
