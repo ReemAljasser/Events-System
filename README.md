@@ -6,7 +6,7 @@ This project aims to develop a comprehensive event management system that allows
 2. Calendar View: Displays a calendar containing the most important upcoming events, this makes it easier for the user to see events scheduled for the month or week.
 3. Event Reminder: An alert or notification appears before the event based on the specified time.
 4. Saving Favorite Events: The user can select the events they like, they are added to a "Favorites" also can Delated form the list and export favorite events to pdf..
-5. Search events and filtering feature by categories and by date.
+5. Search events and filtering feature by categories and by date
 6. Administrator Powers: Add new events, Edit or delete events, Review all users registered in the system, delete users also Export Summery of all Events to PDF.
 
 
