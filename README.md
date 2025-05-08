@@ -28,17 +28,20 @@ Figure 3:Favorite Events Interface
 ![image](https://github.com/user-attachments/assets/83c61689-563d-4a93-8685-f3050c275126)
 Figure 4:Events List Interface
 
+![image](https://github.com/user-attachments/assets/5784116b-eced-41a6-b491-fbcd4fc8af0b)
+Figure 5:Calendar with Events
+
 ![image](https://github.com/user-attachments/assets/f9aa6ed3-ab78-4ff4-a6fc-effb909bf0ef)
-Figure 5:Login As Admin
+Figure 6:Login As Admin
 
 ![image](https://github.com/user-attachments/assets/88ce1d20-df7a-4c25-aded-1bcf69f11d01)
-Figure 6:Export All Events to PDF
+Figure 7:Export All Events to PDF
 
 ![image](https://github.com/user-attachments/assets/2607b694-ee11-4ccc-af46-b18865d107ff)
-Figure 7:Output of The PDF
+Figure 8:Output of The PDF
 
 ![image](https://github.com/user-attachments/assets/bf9694bc-722c-41af-aef4-8682c3c67ef1)
-Figure 8:Admaistetor Control Interface
+Figure 9:Admaistetor Control Interface
 
 
 
